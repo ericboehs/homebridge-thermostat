@@ -1,0 +1,22 @@
+{
+    "bridge": {
+        "name": "Homebridge on Mac",
+        "username": "CC:22:9K:B3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "accessories": [
+        {
+            "accessory": "Thermostat",
+            "name": "Thermostat",
+            "api_route": "https://api.particle.io/v1/devices",
+            "device_id": "12345678901234567890",
+            "access_token": "abcdef12345abcdef12345"
+        }
+    ],
+
+    "platforms":[]
+}
